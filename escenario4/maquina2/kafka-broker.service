@@ -1,0 +1,13 @@
+[Unit]
+Description=Apache Kafka server in container broker1kafka
+Documentation=https://kafka.apache.org/documentation.html
+Requires=network.target remote-fs.target
+After=network.target remote-fs.target
+
+[Service]
+Type=simple
+NExecStart=/usr/local/src/kafka/bin/kafka-server-start.sh /usr/local/src/kafka/config/server.properties
+ExecStop=/usr/local/src/kafka/bin/kafka-server-stop.sh
+
+[Install]
+WantedBy=multi-user.target
