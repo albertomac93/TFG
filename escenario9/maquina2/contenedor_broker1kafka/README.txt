@@ -1,4 +1,4 @@
-# Escenario 9. Máquina 1 - Contenedor broker1kafka
+# Escenario 9. Máquina 2 - Contenedor broker1kafka
 
 Rutas donde almacenar los ficheros suponiendo que el contenedor está en /var/lib/machines/broker1kafka
 
