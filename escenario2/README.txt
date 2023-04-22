@@ -1,4 +1,4 @@
-# 2.	Control y gestión de las tarjetas de red con Systemd
+# Escenario 2. Control y gestión de las tarjetas de red con Systemd
 
 Rutas donde guardar los ficheros:
 
