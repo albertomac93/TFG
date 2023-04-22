@@ -1,1 +1,3 @@
-En cada una de las carpetas, se encuentran los archivos creados o modificados para cada una de las máquinas del escenario.
+# Escenario 4: # Escenario 5: Control y reinicio automático del servidor Kafka a través de Systemd
+
+División en carpetas de los ficheros utilizados en cada máquina del escenario
