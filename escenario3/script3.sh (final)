@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "## Script escenario 3 - Parte 2 ##"
+echo "Intentando escritura fichero temporal en /usr/local/src/TEMP"
+echo "Escritura de fichero" >> /usr/local/src/TEMP/temp_escenario3.txt
+echo "## Script escenario 3 - Parte 2 - Fin ##"
