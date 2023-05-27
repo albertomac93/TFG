@@ -1,9 +1,0 @@
-[Unit]
-Description=Escenario 3 - Parte 2 - Limitar acceso con Systemd
-
-[Service]
-ExecStart=/bin/bash /usr/local/src/script3.sh
-ReadOnlyPaths=/usr/local/src/TEMP
-
-[Install]
-WantedBy=multi-user.target

@@ -1,7 +1,0 @@
-#!/bin/bash
-echo "## Script escenario 3 ##"
-echo "Script escenario 3 escribiendo fichero en /usr/local/src/temp_escenario3.txt"  >> /usr/local/src/temp_escenario3.txt
-echo "Script escenario 3 ya escribió en la ruta"
-echo "Espera 30s"
-sleep 30
-echo "## Script escenario 3 - Fin ##"
