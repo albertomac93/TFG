@@ -1,9 +1,0 @@
-[Unit]
-Description=Timer para iniciar el nodo Kafka
-
-[Timer]
-OnCalendar=Sat..Sun *-*-* 10:12:00
-Unit=kafka-broker.service
-
-[Install]
-WantedBy=timers.target
