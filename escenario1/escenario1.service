@@ -1,8 +1,0 @@
-[Unit]
-Description=Escenario 1 - Instalacion del servicio en el arranque del sistema
-
-[Service]
-ExecStart=/bin/bash /usr/local/src/script1.sh
-
-[Install]
-WantedBy=multi-user.target
