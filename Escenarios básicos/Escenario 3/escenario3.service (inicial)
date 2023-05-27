@@ -1,0 +1,9 @@
+[Unit]
+Description=Escenario 3 - Limitar acceso con Systemd
+
+[Service]
+ExecStart=/bin/bash /usr/local/src/script3.sh
+PrivateTmp=yes
+
+[Install]
+WantedBy=multi-user.target

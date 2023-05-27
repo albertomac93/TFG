@@ -1,0 +1,12 @@
+[Unit]
+Description=Apache Kafka Container for second broker
+Requires=network.target remote-fs.target
+After=network.target remote-fs.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/systemd-nspawn -D /var/lib/machines/broker1kafka -b
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target

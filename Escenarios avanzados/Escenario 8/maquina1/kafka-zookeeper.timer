@@ -1,0 +1,9 @@
+[Unit]
+Description=Timer para iniciar servidor Zookeeper
+
+[Timer]
+OnCalendar=Sat..Sun *-*-* 10:10:00
+Unit=kafka-zookeeper.service
+
+[Install]
+WantedBy=timers.target
