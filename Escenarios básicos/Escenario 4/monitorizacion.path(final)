@@ -1,5 +1,5 @@
 [Unit]
-Description=Escenario 4 - Monitorización de cambios en fichero
+Description=Escenario 4 - Monitorización de cambios en fichero y ruta
 
 [Path]
 PathChanged=/usr/local/src/input.txt
