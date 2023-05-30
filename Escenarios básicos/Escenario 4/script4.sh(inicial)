@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "El fichero input.txt ha cambiado !" >> /usr/local/src/output.txt
+echo "### El fichero input.txt ha cambiado ! ###"

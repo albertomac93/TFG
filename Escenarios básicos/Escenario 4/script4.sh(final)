@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Se ha detectado un cambio en las rutas monitorizadas !" >> /usr/local/src/output.txt
+echo "### Se ha detectado un cambio en las rutas monitorizadas ! ###"

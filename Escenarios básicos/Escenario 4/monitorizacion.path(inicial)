@@ -1,0 +1,9 @@
+[Unit]
+Description=Escenario 4 - Monitorización de cambios en fichero
+
+[Path]
+PathChanged=/usr/local/src/input.txt
+Unit=monitorizacion.service
+
+[Install]
+WantedBy=multi-user.target

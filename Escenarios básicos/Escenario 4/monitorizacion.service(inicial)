@@ -1,0 +1,9 @@
+[Unit]
+Description=Escenario 4 - Servicio arrancado por la monitorizacion
+
+[Service]
+Type=simple
+ExecStart=/usr/local/src/script4.sh
+
+[Install]
+WantedBy=multi-user.target
