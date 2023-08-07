@@ -1,0 +1,10 @@
+[Service]
+Type=oneshot
+ExecStart=/etc/systemd/system/generate_load.sh
+TimeoutSec=0
+StandardOutput=tty
+RemainAfterExit=yes
+Slice=persistentCgroup.slice
+
+[Install]
+WantedBy=multi-user.target

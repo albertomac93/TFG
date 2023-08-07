@@ -1,0 +1,9 @@
+[Service]
+Type=oneshot
+ExecStart=/etc/systemd/system/generate_load.sh
+TimeoutSec=0
+StandardOutput=tty
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
