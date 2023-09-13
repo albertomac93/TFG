@@ -1,4 +1,4 @@
-# Escenario 11: Integración de Apache Kafka con contenedores
+# Escenario 11: Integración de Apache Kafka con contenedores y gestión total del sistema
 
 División en carpetas de los ficheros utilizados en cada máquina del escenario y sus contenedores asociados.
 
